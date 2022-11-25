@@ -23,8 +23,6 @@
 /extra/doc/
 
 /src/version.ml
-/haxe
-/haxelib*
 /haxedoc*
 /lib
 /prebuild
