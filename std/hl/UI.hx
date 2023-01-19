@@ -222,7 +222,7 @@ class UI {
 		return @:privateAccess _setClipboardText(text.toUtf8());
 	}
 
-	@:hlNative("?ui", "ui_set_clipboard_text")
+	//@:hlNative("?ui", "ui_set_clipboard_text")
 	static function _setClipboardText(text:hl.Bytes):Bool {
 		return false;
 	}
@@ -234,7 +234,7 @@ class UI {
 		return @:privateAccess String.fromUTF8(t);
 	}
 
-	@:hlNative("?ui", "ui_get_clipboard_text")
+	//@:hlNative("?ui", "ui_get_clipboard_text")
 	static function _getClipboardText():hl.Bytes {
 		return null;
 	}
